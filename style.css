@@ -1,0 +1,93 @@
+/* style.css */
+
+/* Container for 5-day forecast */
+#forecast-container {
+    margin-top: 20px;
+  }
+  
+  /* Style for each forecast card */
+  .forecast-item {
+    display: inline-block;
+    width: calc(20% - 20px);
+    margin: 10px;
+    padding: 10px;
+    background-color: rgb(152, 152, 214);
+    color: #fff;
+    text-align: center;
+  }
+  
+  /* Style for forecast card date */
+  .forecast-date {
+    font-weight: bold;
+    font-size: 16px;
+    margin-bottom: 5px;
+  }
+  
+  /* Style for forecast card temperature */
+  .forecast-temp {
+    font-size: 14px;
+    margin-bottom: 5px;
+  }
+  
+  /* Style for forecast card humidity */
+  .forecast-humidity {
+    font-size: 14px;
+  }
+  
+  /* style.css */
+
+/* Container for search history */
+#search-history-container {
+    width: 200px;
+    padding: 10px;
+    background-color: #f0d3d3;
+    float: left;
+  }
+  
+  /* Style for search history list */
+  .search-history-list {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  /* Style for search history list item */
+  .search-history-list-item {
+    margin-bottom: 5px;
+    cursor: pointer;
+  }
+  
+  /* Style for selected search history list item */
+  .search-history-list-item.selected {
+    font-weight: bold;
+  }
+  
+  /* Container for current weather data */
+  #current-weather-container {
+    margin-top: 20px;
+    border: 1px solid #000;
+    padding: 10px;
+    clear: both;
+  }
+  
+  /* Style for current weather city */
+  .current-city {
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 5px;
+  }
+  
+  /* Style for current weather temperature */
+  .current-temp {
+    font-size: 18px;
+    margin-bottom: 5px;
+  }
+  
+  /* Style for current weather humidity and wind speed */
+  .current-humidity-wind {
+    font-size: 16px;
+  }
+
+.weather-heading {background-color: #f0d3d3;
+    
+
+}
