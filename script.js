@@ -77,6 +77,3 @@ const updateForecast = (forecastData) => {
     forecastContainer.appendChild(forecastElement);
   }
 };
-
-
-
